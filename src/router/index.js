@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import homeRoutes from './interfaces/homeRoutes'
+import animateRoutes from './interfaces/animate_routes'
 
 Vue.use(Router)
 
 export default new Router({
   base: '/',
   routes: [
-    ...homeRoutes
+    ...animateRoutes
   ]
 })

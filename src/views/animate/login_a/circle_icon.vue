@@ -70,7 +70,7 @@ export default {
       let _this = this
       setTimeout(() => {
         _this.$emit('showUserInfo')
-      }, 800)
+      }, 500)
     }
   }
 }

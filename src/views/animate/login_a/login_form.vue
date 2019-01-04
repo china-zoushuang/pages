@@ -70,7 +70,7 @@ export default {
 .login_form {
 
   .logo {
-    padding: 220px 100px 0 100px;
+    padding: 140px 100px 0 100px;
     font-family: 'Leckerli+One';
     line-height: 52px;
     font-size: 52px;
@@ -78,7 +78,7 @@ export default {
   }
 
   .desc {
-    padding: 100px 100px 0 100px;
+    padding: 80px 100px 0 100px;
     font-size: 40px;
     line-height: 52px;
     color: #D8D8D8;
@@ -90,12 +90,12 @@ export default {
   }
 
   .form {
-    padding: 100px 100px 0 100px;
+    padding: 80px 100px 0 100px;
 
     .form__input {
       position: relative;
       margin-bottom: 42px;
-      border-bottom: 4px solid #D1D0D4;
+      border-bottom: 2px solid #D1D0D4;
 
       &:first-child {
         animation: bounceInLeft 1.4s;
@@ -109,10 +109,10 @@ export default {
         content: '';
         position: absolute;
         left: 0;
-        bottom: -4px;
+        bottom: -2px;
         display: block;
         width: 0;
-        height: 4px;
+        height: 2px;
         background-color: #F85F88;
         transition: width .5s;
       }

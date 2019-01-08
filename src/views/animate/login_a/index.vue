@@ -6,9 +6,9 @@
     ></login-form>
     <circle-icon
       :active="loading"
-      @showUserInfo="isLogged = true, loading = false"
+      @showUserInfo="isLogged = true"
     ></circle-icon>
-    <user-info v-if="isLogged && !loading"></user-info>
+    <user-info v-if="isLogged"></user-info>
   </section>
 </template>
 
